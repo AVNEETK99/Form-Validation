@@ -1,0 +1,103 @@
+@import url("https://uilight.netlify.app/main.css");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background-color: rgb(254, 243, 226);
+}
+
+.heading-1 {
+  margin-top: 5rem;
+}
+
+.form {
+  margin-left: 2rem;
+  width: 30vw;
+}
+.fname,.lname{
+    font-weight: bold;
+    font-size: 1.5rem;
+    align-items: center;
+}
+.email,.pwds{
+    font-weight: bold;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+.input-container {
+  padding: 8px 0;
+}
+
+.input {
+  width: 100%;
+  font-size: 1.25rem;
+  padding: 8px 4px;
+ 
+}
+
+.input:focus {
+  outline: none;
+}
+
+.gutter-small {
+  padding: 0.5rem 0;
+}
+
+.error {
+  border: 2px solid hwb(333 4% 58%);
+}
+
+.error:focus {
+  outline: 2px solid hwb(333 4% 58%);
+}
+
+.d-block {
+  display: block;
+}
+
+.d-none {
+  display: none;
+}
+
+.relative {
+  position: relative;
+}
+
+.btn {
+  top: 3.6rem;
+  right: 8px;
+}
+
+.button {
+  width: 100%;
+  background-color: purple;
+}
+
+.gap {
+  gap: 4px;
+}
+
+.ul {
+  list-style-type: disc;
+  margin-left: 1rem;
+}
+
+.list {
+  color: hwb(333 4% 58%);
+}
+
+.error-message,
+.empty-field {
+  color: hwb(333 4% 58%);
+  font-weight: bold;
+}
+
+.container {
+  border: none;
+  align-items: center;
+}
